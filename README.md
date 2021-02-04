@@ -21,8 +21,6 @@ Watch the `Example.mov` to watch how I play the game.
  
  2) Reset button and Quit button are implemented to restart or quit the game
  
-## Conclusion
-This is the most difficult project for me this semester and I initially had no ideas about how to write the HuntTheWump class. After talking to Alice and saw her illustrations of her way implementing the project, I finally was able to continue my project. After finishing the project, I gained a more comprehensive understanding of how to complete a project that has no specific instructions, which requires a better pre-design of the classes functions. I also became more familiar with building the display and adding elements to it. 
  
 ## Acknowledgments
 I would like to give great thanks to Alice Zhang and Shailin for helping me overcome problems while doing the project, as well as inspiring me about ways to implement the game. I could hardly finish the project on my own without their help. I also want to thank Prof. Layton, Prof. Bruce, TA Jackie, TA Prashant, Xiaoyue, Zejun, Kai, Silpian, Briana, Ben, and Qianhan.
