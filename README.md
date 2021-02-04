@@ -1,7 +1,7 @@
 # Hunt-The-Wumpus-Game
 
 ## Abstract
-The project’s main goal is to implement the classic game Hunt The Wumpus. The data structure “Graph”, which consists of vertices and each of them could be connected to four directions, is applied to implement the game. Vertices are served as rooms in the game. The Hunter and the Wumpus are randomly placed in two of the vertices. Actions of the Hunter is controlled by keyboard and the rooms are set to be red if the Wumpus is less than two rooms away, in which the distance is represented as the “cost” in the program calculated by Dijkstra's algorithm (shortest distance).
+The project’s main goal is to implement the classic game Hunt The Wumpus. The data structure “Graph”, which consists of vertices and each of them could be connected to four directions, is applied to implement the game. Vertices are served as rooms in the game. The `Hunter` and the `Wumpus` are randomly placed in two of the vertices. Actions of the `Hunter` is controlled by keyboard and the rooms are set to be red if the `Wumpus` is less than two rooms away, in which the distance is represented as the “cost” in the program calculated by Dijkstra's algorithm (shortest distance).
  
 ## Solution
 ### 1) Graph Class
@@ -14,8 +14,7 @@ Both of them have methods that can return and change their locations. The most i
 I would say the most tricky part in the class is connecting all the rooms(vertices) together. Two double loops are used to reach that end and I spent a lot of time trying to figure out what index do I need to use inside the loops. I finally made it by drawing a picture of the graph and titled the rows and columns to see the underlying process I need to write. Besides, A very straightforward structure of implementing the game, which I learned from Alice’s thought, is used to follow the rules of the game. Separating the game into four stages: {normal, shoot, quit, gameover} represented by Enum, rules are written respectively according to different stages of the game. 
  
 ## Results
-click the Example.mov to watch how I play the game.
-Example.mov 
+Watch the `Example.mov` to watch how I play the game.
  
 ## Extensions
  1) I drew pictures to represent different states of Wumpus and Hunter
