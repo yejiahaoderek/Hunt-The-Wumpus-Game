@@ -7,10 +7,10 @@ The project’s main goal is to implement the classic game Hunt The Wumpus. The 
 ### 1) Graph Class
 This class holds a very important method addEdge() that will enable the paths(mutual connections) between the rooms so that the user will be able to control the Hunter moving around the rooms. It also has the shortestPath() method that counts the cost of different vertices, providing the information needed to change the room’s color.
 
-### 2)Hunter and Wumpus Class
+### 2) Hunter and Wumpus Class
 Both of them have methods that can return and change their locations. The most important part to my understanding is the boolean fields that tell whether they are alive, visible. By working together with setXXX() and getXXX() methods that process both fields, their conditions can be told and updated, enabling the game to work.
 
-### 3)Main gameplay Implementation (HuntTheWumpus Class)
+### 3) Main gameplay Implementation (HuntTheWumpus Class)
 I would say the most tricky part in the class is connecting all the rooms(vertices) together. Two double loops are used to reach that end and I spent a lot of time trying to figure out what index do I need to use inside the loops. I finally made it by drawing a picture of the graph and titled the rows and columns to see the underlying process I need to write. Besides, A very straightforward structure of implementing the game, which I learned from Alice’s thought, is used to follow the rules of the game. Separating the game into four stages: {normal, shoot, quit, gameover} represented by Enum, rules are written respectively according to different stages of the game. 
  
 ## Results
